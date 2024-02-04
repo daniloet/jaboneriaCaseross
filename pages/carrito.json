@@ -1,0 +1,11 @@
+
+[
+    { "id": 1, "nombre": "Lavandina", "precio": 20.00, "categoria": "cloro"},
+    { "id": 2, "nombre": "Cloro", "precio": 50.00, "categoria": "cloro" },
+    { "id": 3, "nombre": "Pastillas", "precio": 30.00, "categoria": "cloro" },
+    { "id": 4, "nombre": "Pala", "precio": 20.00, "categoria": "plasticos" },
+    { "id": 5, "nombre": "Balde", "precio": 30.00, "categoria": "plasticos"},
+    { "id": 6, "nombre": "Puro", "precio": 10.00, "categoria": "pisos" },
+    { "id": 7, "nombre": "Cera", "precio": 15.00, "categoria": "pisos" }
+    
+  ]

@@ -4,6 +4,15 @@ main {
     background-color: lavender;
     min-height: 100vh;
 
+    width: 100%;
+    max-width: 100vw; // Asegura que el ancho no exceda el ancho de la ventana del navegador
+
+
+
+    .item {
+        max-width: 100%;
+    }
+
     section {
         display: flex;
         flex-direction: column;
@@ -11,19 +20,27 @@ main {
         font-family: "Varela Round", sans-serif;
         color: white; // Añade el color del texto para que sea visible en el fondo negro
 
+        .margin-top-5 {
+            margin-top: 5px;
+        }
+
         .cardsIndex {
             display: flex;
 
             .card {
-                margin: 20px;
+
                 align-items: center;
 
                 .card-body {
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
+                    width: 70%;
+                    font-size: 5px;
+                    padding: 4px;
 
-                    h2,
+
+                    h4,
                     p {
                         margin: 0;
                     }

@@ -11,27 +11,30 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="../styles/index.css">
+  <script src="../js/script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
   <main>
+    
     <section class="item">
       <div class="tituloIndex">
         <h1>Selecciona un negocio:</h1>
       </div>
       <div class="cardsIndex">
-        <div class="card" style="width: 30rem; height: 30rem;">
+        <div class="card" style="width: 10rem; height: 10rem;">
           <img src="../assets/300587265_606734481158397_6416983331841911560_n.jpg" class="card-img-top" alt="caseros1"
             style="width: 65%; height: 65%;">
           <div class="card-body">
-            <h2 class="card-title">Caseros 1</h5>
-            <p class="card-text">Av. San Martin 1243</p>
+            <h4 class="card-title">Caseros 1</h4>
+        <p class="card-text">Av. San Martin 1243</p>
             <p class="card-text">Caseros</p>
             <a href="#" class="btn btn-primary">Hacé tu pedido</a>
           </div>
         </div>
 
-        <div class="card" style="width: 30rem; height: 30rem;">
+        <div class="card" style="width: 10rem; height: 10rem;">
           <img src="..." class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -42,10 +45,22 @@
         </div>
       </div>
     </section>
-    <section class="item">
-
+    <section>
+      <div id="div1">
+        <h2>Productos</h2>
+        <ul id="lista-productos"></ul>
+    </div>
+    <div id="carrito">
+        <h2>Carrito</h2>
+        <ul id="items-carrito-pisos"></ul>
+        <ul id="items-carrito-plasticos"></ul>
+        <ul id="items-carrito-cloro"></ul>
+        <p>Total: $<span id="total-carrito">0.00</span></p>
+        <button id="mostrarAlerta">Finalizar Compra</button>
+    </div>
     </section>
   </main>
+
 </body>
 
 </html>
